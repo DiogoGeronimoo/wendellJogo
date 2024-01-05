@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94481d2831ac4924caacf529571876e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 7
   jumpForce: 300
   isGrounded: 0
 --- !u!114 &23792201
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a8c33bb38b17b40918fb2772e62d94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 15
+  force: 5
   ball: {fileID: 0}
 --- !u!1 &213016494
 GameObject:
@@ -963,7 +963,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973144798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.29089, y: -0.70504, z: 0}
+  m_LocalPosition: {x: -0.12, y: 2.59, z: 0}
   m_LocalScale: {x: 0.13270448, y: 0.13270448, z: 0.13270448}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1001,8 +1001,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
-  m_Material: {fileID: 0}
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 7e997b7cdc4cee54d8734b2fb11a091c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1166,7 +1166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rangedDefence: 5
-  speed: 2
+  speed: 3
   defence: {fileID: 1961331057}
   Ball: {fileID: 0}
   JumpForce: 7
@@ -1551,7 +1551,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: 133}
+  m_AnchoredPosition: {x: 92, y: 171}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1698048310
