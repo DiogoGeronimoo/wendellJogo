@@ -26,14 +26,14 @@ public class Ball : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "PortaPlayer")
+        if (col.gameObject.tag == "PortalPlayer")
         {
             gm.aiscore++;
             transform.position = startPos;
             rb.velocity = Vector2.zero;
 
         }
-        else if (col.gameObject.name == "PortaInimigo")
+        else if (col.gameObject.tag == "PortalInimigo")
         {
             gm.playerScore++;
             transform.position = startPos;

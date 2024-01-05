@@ -6,6 +6,8 @@ TagManager:
   tags:
   - terreno
   - Ball
+  - PortalPlayer
+  - PortalInimigo
   layers:
   - Default
   - TransparentFX

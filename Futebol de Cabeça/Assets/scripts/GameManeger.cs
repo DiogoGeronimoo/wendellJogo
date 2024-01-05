@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.WSA;
 using UnityEngine.UI;
@@ -10,7 +11,7 @@ public class GameManeger : MonoBehaviour
 
     public float timer = 120f;
 
-    public Text ScoreText;
+    public TextMeshProUGUI ScoreText;
 
     public string score;
     // Start is called before the first frame update
@@ -29,7 +30,7 @@ public class GameManeger : MonoBehaviour
             
         }
 
-        score = playerScore.ToString() + " - " + aiscore.ToString();
+        score = playerScore.ToString() + "    -   " + aiscore.ToString();
         ScoreText.text = score.ToString();
     }
 }
